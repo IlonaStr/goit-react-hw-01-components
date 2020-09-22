@@ -1,0 +1,30 @@
+.Statistics {
+    width: 280px;
+    margin: 0 auto;
+    border: 1px solid #c0c0c0;
+}
+
+.Title {
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 18px;
+    padding: 15px 0 15px 0;
+}
+
+.Item {
+    flex-grow: 1;
+    padding: 5px;
+    color: white;
+}
+.stat-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.Label,
+.Percentage {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+.Item {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 0 4px;
+  }
+  .StatusIsOnline,
+  .StatusIsOfline {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+    border-radius: 50%;
+  }
+  .StatusIsOnline {
+    background-color: lightgreen;
+  }
+  .StatusIsOfline {
+    background-color: red;
+  }
+  .Avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+  }
+  .Name {
+    margin: 15px;
+  }
